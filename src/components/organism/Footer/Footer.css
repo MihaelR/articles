@@ -1,0 +1,25 @@
+.footer {
+    background-color: black;
+    width: 100vw;
+    position: absolute;
+    height: 60px;
+    color: white;
+    bottom: auto;
+}
+
+.footer-container{
+    max-width: 1600px;
+    margin: 0 auto;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.impressum {
+    margin-right: 20px;
+}
+
+.footer-container-left, .footer-container-right {
+   margin: 0 20px;
+}
